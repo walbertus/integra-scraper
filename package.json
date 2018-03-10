@@ -1,0 +1,21 @@
+{
+  "name": "integra-scraper",
+  "version": "1.0.0",
+  "description": "Script to take matkul from integra in FRS session",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "^1.4.3",
+    "lodash": "^4.17.5",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walbertus/integra-scraper"
+  },
+  "author": "William AD (w.albertusd@gmail.com)",
+  "license": "ISC"
+}
