@@ -1,6 +1,6 @@
-const { scrape } = require('./scrape');
+const { takeCourses } = require('./scrape');
 
-const { user, matkul, firerate } = require('./config.json');
+const { user, courses, delayEachRequest } = require('./config.json');
 
-console.log("Begin scraping...");
-scrape(user, matkul, firerate, 1);
+console.log("Begin gathering courses...");
+takeCourses(user, courses, delayEachRequest);
