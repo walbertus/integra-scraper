@@ -14,22 +14,32 @@ There are some things to do before you can use this script
  2. Get your **cookie** from browser you use to login
  3. Rename `config.json.example` to `config.json`
  4. Fill `config.json` in `user` with your NRP and cookie
- 5. Fill courses you want to take
-   Format: `course_code:class:curriculum_year:department_code`
-   Explanation:
-   course_code = IF4101 (Dasar Pemrograman)
-   class = A (`_` for course with one class only)
-   curriculum_year = 2018 (current curriculum year)
-   department_code = 51100 (informatics)
-   (Confuse? You can inspect integra form in courses dropdown)
+ 5. Fill courses you want to take in `courses` inside `config.json`
  6. run `npm start`
+
+### Help with courses data
+ Format: `course_code:class:curriculum_year:department_code`
+
+ Explanation:
+
+ course_code = IF4101 (Dasar Pemrograman)
+
+ class = A (`_` for course with one class only)
+
+ curriculum_year = 2018 (current curriculum year)
+
+ department_code = 51100 (informatics)
+ 
+ (Confuse? You can inspect integra form in courses dropdown)
 
  ### Hidden feature
  You can update `config.json` to get courses faster (by default each request takes about 2 - 5 seconds)
 
  ### Disclaimer
  It works well at FRS Genap 2017/2018
+
  If it doesn't work, it means that integra is updated prior to genap 2017/2018
+
  Use it at your own risk
 
 
