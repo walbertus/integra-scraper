@@ -1,7 +1,7 @@
 # Integra ITS scraper
 
 ### What for?
-You can use this script to get any courses you want during Integra war faster than anyone
+You can use this script to get any courses you want during Integra war automatically
 
 ### Prerequisite
  * Install NodeJs
@@ -24,6 +24,8 @@ There are some things to do before you can use this script
    (Confuse? You can inspect integra form in courses dropdown)
  6. run `npm start`
 
+ ### Hidden feature
+ You can update `config.json` to get courses faster (by default each request takes about 2 - 5 seconds)
 
  ### Disclaimer
  Use it at your own risk

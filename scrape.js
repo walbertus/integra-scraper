@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const Bluebird = require('bluebird');
 const _ = require('lodash');
 
-function takeCourses(user, courses, firerate = 10000, counter = 1) {
+function takeCourses(user, courses, firerate = 3000, counter = 1) {
     setTimeout(() => {
         console.log("Attempt #", counter);
         Bluebird.map(courses, (course) => {
