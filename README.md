@@ -28,6 +28,8 @@ There are some things to do before you can use this script
  You can update `config.json` to get courses faster (by default each request takes about 2 - 5 seconds)
 
  ### Disclaimer
+ It works well at FRS Genap 2017/2018
+ If it doesn't work, it means that integra is updated prior to genap 2017/2018
  Use it at your own risk
 
 
