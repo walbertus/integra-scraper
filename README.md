@@ -12,8 +12,9 @@ You can use this script to get any courses you want during Integra war faster th
 There are some things to do before you can use this script
  1. Login to your integra account and access **SIAKAD**
  2. Get your **cookie** from browser you use to login
- 3. Fill `config.json` in `user` with your NRP and cookie
- 4. Fill courses you want to take
+ 3. Rename `config.json.example` to `config.json`
+ 4. Fill `config.json` in `user` with your NRP and cookie
+ 5. Fill courses you want to take
    Format: `course_code:class:curriculum_year:department_code`
    Explanation:
    course_code = IF4101 (Dasar Pemrograman)
@@ -21,7 +22,7 @@ There are some things to do before you can use this script
    curriculum_year = 2018 (current curriculum year)
    department_code = 51100 (informatics)
    (Confuse? You can inspect integra form in courses dropdown)
- 5. run `npm start`
+ 6. run `npm start`
 
 
  ### Disclaimer
