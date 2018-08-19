@@ -11,10 +11,12 @@ function takeCourses(user, courses, firerate = 3000, counter = 1) {
         })
             .then(responses => {
                 _.each(responses, printRequestResult);
+                console.log("Attempt #", counter, "complete");
                 takeCourses(user, courses, firerate, counter + 1);
             })
             .catch(err => {
                 console.error(err);
+                console.log("Attempt #", counter, "error");
                 takeCourses(user, courses, firerate, counter + 1);
             })
     }, firerate);
