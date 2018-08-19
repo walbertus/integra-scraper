@@ -14,7 +14,7 @@ function takeCourses(user, courses, firerate = 10000, counter = 1) {
                 takeCourses(user, courses, firerate, counter + 1);
             })
             .catch(err => {
-                console.console.error(err);
+                console.error(err);
                 takeCourses(user, courses, firerate, counter + 1);
             })
     }, firerate);
